@@ -1,0 +1,37 @@
+{
+  "cypress-cucumber-preprocessor": {
+  "stepDefinitions": [
+    "cypress/e2e/**/*.steps.{js,ts,tsx}",
+    "cypress/support/step_definitions/**/*.{js,ts,tsx}"
+  ]
+},
+
+  "name": "hello-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome"
+  },
+  "dependencies": {
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.7",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cypress": "^15.6.0",
+    "esbuild": "^0.25.12",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "typescript": "^5"
+  }
+}
