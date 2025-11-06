@@ -31,3 +31,13 @@
 # Ignore key files for decrypting credentials and more.
 /config/*.key
 
+
+# ---- hello-web (Next.js) ----
+/hello-web/node_modules/
+/hello-web/.next/
+/hello-web/.env.local
+/hello-web/cypress/videos/
+/hello-web/cypress/screenshots/
+/hello-web/.eslintcache
+/hello-web/npm-debug.log*
+
