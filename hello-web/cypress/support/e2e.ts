@@ -1,1 +1,1 @@
-// empty on purpose – no cucumber commands import needed
+import "@badeball/cypress-cucumber-preprocessor/commands";
